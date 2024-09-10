@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "SmartGarden",
+    "slug": "smartgarden",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.divyajeetsinhorg.smartgarden"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.divyajeetsinhorg.smartgarden"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bbcdeb06-55ab-4857-b8bc-52573d133365"
+      }
+    },
+    "owner": "divyajeetsinh-org",
+    "updates": {
+      "url": "https://u.expo.dev/bbcdeb06-55ab-4857-b8bc-52573d133365"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
